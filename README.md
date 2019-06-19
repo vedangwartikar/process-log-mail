@@ -11,5 +11,7 @@ Required dependencies:
 Above dependencies can be installed using pip command in the python shell.
 
 Refer to the image GraphicalLog.png for graphical visualization of the memory consumption by the processes running on RAM.
+
 The directory 'LogDir' contains multiple Log files with the date and time specified as their filnames.
+
 These files as well as the graphical image will be periodically mailed to the desired e-mail address.

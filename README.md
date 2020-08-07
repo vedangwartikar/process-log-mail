@@ -6,7 +6,7 @@ __Generate a detailed report of the processes running on the Client and periodic
 <div align="center">
     <img src="https://github.com/vedangwartikar/process-log-mail/blob/master/processLog.JPG"/>
 </div>
-
+<br>
 The python script will run at the client-side. It will periodically generate a Log file for all the proceses running on the Clients machine. The log file will contain the name of the process, its user, ProcessID and the virtual memory usage. This file will be e-mailed to the server for further analytical computations. The script will also plot a graph of the memory consumption of these processes wrt to their PIDs. The process with highest memory consumption is tagged.
 
 Required dependencies:

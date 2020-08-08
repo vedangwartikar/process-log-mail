@@ -6,9 +6,14 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
 from email.mime.text import MIMEText
+#from email.MIMEImage import MIMEImage
 from email import encoders
 
-def process(log_dir = "Log"):
+#Server-Client email details
+from details import *
+
+def process():
+	log_dir = "Log"
 	if not os.path.exists(log_dir):
 		try:
 			os.mkdir(log_dir)
@@ -49,7 +54,7 @@ def process(log_dir = "Log"):
 		if vms[element] == maxmem:
 			maxname = name[element]
 			maxpid = pid[element]
-			maxindex = element
+			#maxindex = element
 			break
 
 	import matplotlib.pyplot as plt
@@ -59,15 +64,16 @@ def process(log_dir = "Log"):
 	plt.title("Memory consumption of processes wrt their PIDs")
 	plt.annotate(maxname, (maxpid, maxmem))
 	plt.savefig('GraphicalLog.png')
+	img_path = 'GraphicalLog.png'
 
 	for element in processlist:
 		fd.write("%s\n"%element)
 
 	print("Process log succesfully created at ", ct)
-	return log_path
+	return log_path, img_path
 
-def maillog(emailid, attachpath):
-	fromaddr = "wartikarvedang2016.comp@mmcoe.edu.in"
+def maillog(emailid, attachpath, img_path):
+	fromaddr = fromEmailId
 	toaddr = emailid
 
 	msg = MIMEMultipart()
@@ -84,6 +90,7 @@ def maillog(emailid, attachpath):
 		attachment = open(attachpath, "rb")
 
 		p = MIMEBase('application', 'octet-stream')
+
 		p.set_payload((attachment).read())
 
 		encoders.encode_base64(p)
@@ -94,20 +101,20 @@ def maillog(emailid, attachpath):
 
 		s = smtplib.SMTP('smtp.gmail.com', 587)
 		s.starttls()
-		s.login(fromaddr, "tictactoe69")
+		s.login(fromaddr, fromPassword)
 		text = msg.as_string()
 		start = time.time()
 		s.sendmail(fromaddr, toaddr, text)
 		end  = time.time()
-		print("Time to send mail:  ", end-start)
+		print("Time to send mail:  ", round(end-start, 2), "seconds")
 		s.quit()
 	except Exception as err:
 		print("Error: ", err)
 
 def main():
 	print("Process Log mail sender: ")
-	attachpath = process(sys.argv[1])
-	maillog(sys.argv[2], attachpath)
+	attachpath, img_path = process()
+	maillog(toEmailId, attachpath, img_path)
 
 if __name__ == '__main__':
 	main()	

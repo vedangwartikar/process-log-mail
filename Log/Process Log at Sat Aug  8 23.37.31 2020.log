@@ -1,0 +1,241 @@
+--------------------------------------------------------------------------------
+Process Log at Sat Aug  8 23:37:31 2020
+--------------------------------------------------------------------------------
+{'pid': 0, 'username': 'NT AUTHORITY\\SYSTEM', 'name': 'System Idle Process', 'vms': 0.05859375}
+{'pid': 4, 'username': 'NT AUTHORITY\\SYSTEM', 'name': 'System', 'vms': 0.19921875}
+{'pid': 84, 'username': None, 'name': 'svchost.exe', 'vms': 27.5546875}
+{'pid': 120, 'username': None, 'name': 'Registry', 'vms': 11.328125}
+{'pid': 264, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'jusched.exe', 'vms': 1.79296875}
+{'pid': 424, 'username': None, 'name': 'smss.exe', 'vms': 1.15234375}
+{'pid': 468, 'username': None, 'name': 'fontdrvhost.exe', 'vms': 1.63671875}
+{'pid': 472, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'WindowsInternal.ComposableShell.Experiences.TextInput.InputApp.exe', 'vms': 12.15625}
+{'pid': 568, 'username': None, 'name': 'svchost.exe', 'vms': 1.90625}
+{'pid': 648, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'ctfmon.exe', 'vms': 4.171875}
+{'pid': 656, 'username': None, 'name': 'csrss.exe', 'vms': 2.08984375}
+{'pid': 768, 'username': None, 'name': 'wininit.exe', 'vms': 1.78515625}
+{'pid': 808, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'Code.exe', 'vms': 215.9453125}
+{'pid': 840, 'username': None, 'name': 'services.exe', 'vms': 6.37890625}
+{'pid': 852, 'username': None, 'name': 'lsass.exe', 'vms': 12.69921875}
+{'pid': 984, 'username': None, 'name': 'svchost.exe', 'vms': 0.953125}
+{'pid': 1048, 'username': None, 'name': 'svchost.exe', 'vms': 13.265625}
+{'pid': 1096, 'username': None, 'name': 'svchost.exe', 'vms': 3.92578125}
+{'pid': 1260, 'username': None, 'name': 'NVDisplay.Container.exe', 'vms': 9.62890625}
+{'pid': 1300, 'username': None, 'name': 'svchost.exe', 'vms': 2.76171875}
+{'pid': 1396, 'username': None, 'name': 'svchost.exe', 'vms': 2.55078125}
+{'pid': 1440, 'username': None, 'name': 'svchost.exe', 'vms': 1.63671875}
+{'pid': 1484, 'username': None, 'name': 'svchost.exe', 'vms': 8.25390625}
+{'pid': 1520, 'username': None, 'name': 'svchost.exe', 'vms': 10.10546875}
+{'pid': 1604, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'EpicGamesLauncher.exe', 'vms': 195.0390625}
+{'pid': 1608, 'username': None, 'name': 'svchost.exe', 'vms': 3.40625}
+{'pid': 1624, 'username': None, 'name': 'svchost.exe', 'vms': 2.69921875}
+{'pid': 1632, 'username': None, 'name': 'svchost.exe', 'vms': 16.53125}
+{'pid': 1712, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'chrome.exe', 'vms': 21.21484375}
+{'pid': 1752, 'username': None, 'name': 'svchost.exe', 'vms': 9.921875}
+{'pid': 1832, 'username': None, 'name': 'svchost.exe', 'vms': 3.2265625}
+{'pid': 1872, 'username': None, 'name': 'WUDFHost.exe', 'vms': 1.90625}
+{'pid': 1944, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'svchost.exe', 'vms': 4.140625}
+{'pid': 1960, 'username': None, 'name': 'svchost.exe', 'vms': 6.28515625}
+{'pid': 2036, 'username': None, 'name': 'svchost.exe', 'vms': 1.875}
+{'pid': 2044, 'username': None, 'name': 'svchost.exe', 'vms': 2.4140625}
+{'pid': 2120, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'RuntimeBroker.exe', 'vms': 11.87109375}
+{'pid': 2168, 'username': None, 'name': 'svchost.exe', 'vms': 3.0078125}
+{'pid': 2176, 'username': None, 'name': 'svchost.exe', 'vms': 1.3125}
+{'pid': 2184, 'username': None, 'name': 'svchost.exe', 'vms': 2.140625}
+{'pid': 2196, 'username': None, 'name': 'svchost.exe', 'vms': 5.14453125}
+{'pid': 2208, 'username': None, 'name': 'wsc_proxy.exe', 'vms': 4.03515625}
+{'pid': 2288, 'username': None, 'name': 'svchost.exe', 'vms': 1.734375}
+{'pid': 2308, 'username': None, 'name': 'svchost.exe', 'vms': 2.80078125}
+{'pid': 2448, 'username': None, 'name': 'Memory Compression', 'vms': 0.921875}
+{'pid': 2496, 'username': None, 'name': 'svchost.exe', 'vms': 2.375}
+{'pid': 2556, 'username': None, 'name': 'igfxCUIService.exe', 'vms': 2.0078125}
+{'pid': 2564, 'username': None, 'name': 'svchost.exe', 'vms': 3.7421875}
+{'pid': 2592, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'chrome.exe', 'vms': 33.5078125}
+{'pid': 2596, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'chrome.exe', 'vms': 207.31640625}
+{'pid': 2660, 'username': None, 'name': 'svchost.exe', 'vms': 2.51171875}
+{'pid': 2736, 'username': None, 'name': 'svchost.exe', 'vms': 4.33203125}
+{'pid': 2772, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'ZtUac64.exe', 'vms': 1.53515625}
+{'pid': 2880, 'username': None, 'name': 'svchost.exe', 'vms': 2.05078125}
+{'pid': 2888, 'username': None, 'name': 'svchost.exe', 'vms': 2.1484375}
+{'pid': 2924, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'PSAgent.exe', 'vms': 4.1640625}
+{'pid': 2988, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'AcerRegistrationBackGroundTask.exe', 'vms': 40.671875}
+{'pid': 2992, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'dllhost.exe', 'vms': 2.0703125}
+{'pid': 3016, 'username': None, 'name': 'svchost.exe', 'vms': 4.96484375}
+{'pid': 3088, 'username': None, 'name': 'svchost.exe', 'vms': 1.83203125}
+{'pid': 3096, 'username': None, 'name': 'svchost.exe', 'vms': 3.05078125}
+{'pid': 3204, 'username': None, 'name': 'svchost.exe', 'vms': 2.0625}
+{'pid': 3228, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'NVIDIA Share.exe', 'vms': 48.8125}
+{'pid': 3280, 'username': None, 'name': 'svchost.exe', 'vms': 7.046875}
+{'pid': 3312, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'python.exe', 'vms': 10.24609375}
+{'pid': 3396, 'username': None, 'name': 'svchost.exe', 'vms': 5.34375}
+{'pid': 3404, 'username': None, 'name': 'AvastSvc.exe', 'vms': 345.203125}
+{'pid': 3424, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'AvastUI.exe', 'vms': 41.1484375}
+{'pid': 3464, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'SearchUI.exe', 'vms': 100.74609375}
+{'pid': 3496, 'username': None, 'name': 'svchost.exe', 'vms': 5.703125}
+{'pid': 3504, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'sihost.exe', 'vms': 8.23046875}
+{'pid': 3536, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'conhost.exe', 'vms': 1.6875}
+{'pid': 3544, 'username': None, 'name': 'svchost.exe', 'vms': 1.359375}
+{'pid': 3556, 'username': None, 'name': 'svchost.exe', 'vms': 1.6171875}
+{'pid': 3568, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'NVIDIA Share.exe', 'vms': 23.5703125}
+{'pid': 3604, 'username': None, 'name': 'svchost.exe', 'vms': 3.40625}
+{'pid': 3612, 'username': None, 'name': 'PresentationFontCache.exe', 'vms': 24.32421875}
+{'pid': 3636, 'username': None, 'name': 'ZoomTextHelperService.exe', 'vms': 0.8515625}
+{'pid': 3740, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'SystemSettings.exe', 'vms': 23.75}
+{'pid': 3776, 'username': None, 'name': 'svchost.exe', 'vms': 6.01953125}
+{'pid': 4072, 'username': None, 'name': 'svchost.exe', 'vms': 1.890625}
+{'pid': 4084, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'Code.exe', 'vms': 10.2890625}
+{'pid': 4252, 'username': None, 'name': 'spoolsv.exe', 'vms': 6.09765625}
+{'pid': 4260, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'AiSquared.Loader.Generic.exe', 'vms': 38.65234375}
+{'pid': 4288, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'taskhostw.exe', 'vms': 7.234375}
+{'pid': 4332, 'username': None, 'name': 'svchost.exe', 'vms': 2.42578125}
+{'pid': 4392, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'RuntimeBroker.exe', 'vms': 5.7890625}
+{'pid': 4412, 'username': None, 'name': 'svchost.exe', 'vms': 11.62109375}
+{'pid': 4460, 'username': None, 'name': 'svchost.exe', 'vms': 2.2734375}
+{'pid': 4468, 'username': None, 'name': 'svchost.exe', 'vms': 44.69921875}
+{'pid': 4480, 'username': None, 'name': 'svchost.exe', 'vms': 23.7265625}
+{'pid': 4500, 'username': None, 'name': 'svchost.exe', 'vms': 2.0078125}
+{'pid': 4564, 'username': None, 'name': 'svchost.exe', 'vms': 12.2578125}
+{'pid': 4632, 'username': None, 'name': 'mDNSResponder.exe', 'vms': 2.1953125}
+{'pid': 4648, 'username': None, 'name': 'svchost.exe', 'vms': 19.08984375}
+{'pid': 4728, 'username': None, 'name': 'svchost.exe', 'vms': 2.39453125}
+{'pid': 4840, 'username': None, 'name': 'Lavasoft.WCAssistant.WinService.exe', 'vms': 37.78125}
+{'pid': 4868, 'username': None, 'name': 'AiSquared.Magnification.Service.exe', 'vms': 2.5546875}
+{'pid': 4872, 'username': None, 'name': 'Crypserv.exe', 'vms': 4.296875}
+{'pid': 4880, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'python.exe', 'vms': 120.15234375}
+{'pid': 4912, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'RuntimeBroker.exe', 'vms': 4.515625}
+{'pid': 5000, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'Code.exe', 'vms': 37.06640625}
+{'pid': 5012, 'username': None, 'name': 'svchost.exe', 'vms': 6.8203125}
+{'pid': 5144, 'username': None, 'name': 'AppleMobileDeviceService.exe', 'vms': 3.71875}
+{'pid': 5152, 'username': None, 'name': 'Updater.exe', 'vms': 4.9765625}
+{'pid': 5164, 'username': None, 'name': 'nvcontainer.exe', 'vms': 16.91796875}
+{'pid': 5176, 'username': None, 'name': 'AdminService.exe', 'vms': 21.171875}
+{'pid': 5192, 'username': None, 'name': 'armsvc.exe', 'vms': 1.82421875}
+{'pid': 5320, 'username': None, 'name': 'svchost.exe', 'vms': 2.33984375}
+{'pid': 5384, 'username': None, 'name': 'DolbyDAX2API.exe', 'vms': 31.1875}
+{'pid': 5492, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'YourPhone.exe', 'vms': 23.265625}
+{'pid': 5500, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'OneDrive.exe', 'vms': 14.70703125}
+{'pid': 5504, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'explorer.exe', 'vms': 97.62890625}
+{'pid': 5508, 'username': None, 'name': 'audiodg.exe', 'vms': 9.64453125}
+{'pid': 5536, 'username': None, 'name': 'svchost.exe', 'vms': 6.56640625}
+{'pid': 5564, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'NVIDIA Share.exe', 'vms': 52.9609375}
+{'pid': 5588, 'username': None, 'name': 'svchost.exe', 'vms': 2.4140625}
+{'pid': 5632, 'username': None, 'name': 'svchost.exe', 'vms': 1.3046875}
+{'pid': 5684, 'username': None, 'name': 'unsecapp.exe', 'vms': 1.7421875}
+{'pid': 5792, 'username': None, 'name': 'svchost.exe', 'vms': 3.75390625}
+{'pid': 5864, 'username': None, 'name': 'dasHost.exe', 'vms': 1.296875}
+{'pid': 5904, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'dllhost.exe', 'vms': 3.7109375}
+{'pid': 6004, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'StartMenuExperienceHost.exe', 'vms': 30.046875}
+{'pid': 6012, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'nvcontainer.exe', 'vms': 7.96484375}
+{'pid': 6284, 'username': None, 'name': 'svchost.exe', 'vms': 2.59375}
+{'pid': 6396, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'Skype.exe', 'vms': 9.4921875}
+{'pid': 6504, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'RuntimeBroker.exe', 'vms': 6.70703125}
+{'pid': 6616, 'username': None, 'name': 'svchost.exe', 'vms': 2.78515625}
+{'pid': 6632, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'conhost.exe', 'vms': 6.515625}
+{'pid': 6660, 'username': None, 'name': 'svchost.exe', 'vms': 6.6015625}
+{'pid': 6824, 'username': None, 'name': 'SearchIndexer.exe', 'vms': 71.453125}
+{'pid': 6852, 'username': None, 'name': 'svchost.exe', 'vms': 2.8671875}
+{'pid': 6936, 'username': None, 'name': 'svchost.exe', 'vms': 11.49609375}
+{'pid': 7072, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'python.exe', 'vms': 53.03515625}
+{'pid': 7152, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'powershell.exe', 'vms': 65.51953125}
+{'pid': 7200, 'username': None, 'name': 'jhi_service.exe', 'vms': 1.45703125}
+{'pid': 7336, 'username': None, 'name': 'winlogon.exe', 'vms': 2.84765625}
+{'pid': 7376, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'conhost.exe', 'vms': 6.484375}
+{'pid': 7592, 'username': None, 'name': 'aswEngSrv.exe', 'vms': 40.1015625}
+{'pid': 7664, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'PredatorSense.exe', 'vms': 69.41015625}
+{'pid': 7832, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'Code.exe', 'vms': 18.86328125}
+{'pid': 7988, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'AiSquared.Loader.Elevated.exe', 'vms': 17.39453125}
+{'pid': 8444, 'username': None, 'name': 'AppVShNotify.exe', 'vms': 1.8359375}
+{'pid': 8524, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'chrome.exe', 'vms': 2.34375}
+{'pid': 8532, 'username': None, 'name': 'svchost.exe', 'vms': 1.80859375}
+{'pid': 8540, 'username': None, 'name': 'svchost.exe', 'vms': 5.734375}
+{'pid': 8552, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'RAVCpl64.exe', 'vms': 4.953125}
+{'pid': 8892, 'username': None, 'name': 'aswidsagent.exe', 'vms': 53.109375}
+{'pid': 9080, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'chrome.exe', 'vms': 75.75390625}
+{'pid': 9192, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'chrome.exe', 'vms': 23.7578125}
+{'pid': 9224, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'chrome.exe', 'vms': 19.28515625}
+{'pid': 9228, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'AiSquared.Loader.Elevated.exe', 'vms': 32.13671875}
+{'pid': 9304, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'SecurityHealthSystray.exe', 'vms': 2.1015625}
+{'pid': 9320, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'conhost.exe', 'vms': 1.859375}
+{'pid': 9348, 'username': None, 'name': 'svchost.exe', 'vms': 1.4921875}
+{'pid': 9364, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'RAVBg64.exe', 'vms': 7.55078125}
+{'pid': 9480, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'chrome.exe', 'vms': 65.68359375}
+{'pid': 9572, 'username': None, 'name': 'svchost.exe', 'vms': 11.1640625}
+{'pid': 9824, 'username': None, 'name': 'csrss.exe', 'vms': 2.4453125}
+{'pid': 9972, 'username': None, 'name': 'svchost.exe', 'vms': 4.375}
+{'pid': 10040, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'chrome.exe', 'vms': 19.59765625}
+{'pid': 10060, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'ShellExperienceHost.exe', 'vms': 15.44140625}
+{'pid': 10300, 'username': None, 'name': 'SecurityHealthService.exe', 'vms': 10.4453125}
+{'pid': 10316, 'username': None, 'name': 'LMS.exe', 'vms': 3.81640625}
+{'pid': 10428, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'Code.exe', 'vms': 171.73828125}
+{'pid': 10444, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'conhost.exe', 'vms': 6.515625}
+{'pid': 11040, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'Code.exe', 'vms': 48.40234375}
+{'pid': 11044, 'username': None, 'name': 'WmiPrvSE.exe', 'vms': 3.78515625}
+{'pid': 11172, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'AvastUI.exe', 'vms': 16.40234375}
+{'pid': 11280, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'chrome.exe', 'vms': 38.00390625}
+{'pid': 11436, 'username': None, 'name': 'dwm.exe', 'vms': 71.9765625}
+{'pid': 11560, 'username': None, 'name': 'svchost.exe', 'vms': 2.3828125}
+{'pid': 11720, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'RuntimeBroker.exe', 'vms': 6.8046875}
+{'pid': 11776, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'Code.exe', 'vms': 7.15234375}
+{'pid': 11804, 'username': None, 'name': 'dllhost.exe', 'vms': 3.7421875}
+{'pid': 11872, 'username': None, 'name': 'svchost.exe', 'vms': 5.5234375}
+{'pid': 11936, 'username': None, 'name': 'svchost.exe', 'vms': 4.5703125}
+{'pid': 11952, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'chrome.exe', 'vms': 24.79296875}
+{'pid': 12128, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'chrome.exe', 'vms': 105.04296875}
+{'pid': 12316, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'LockApp.exe', 'vms': 13.42578125}
+{'pid': 12708, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'powershell.exe', 'vms': 62.1796875}
+{'pid': 12728, 'username': None, 'name': 'PSSvc.exe', 'vms': 29.8359375}
+{'pid': 12748, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'Code.exe', 'vms': 40.89453125}
+{'pid': 12808, 'username': None, 'name': 'svchost.exe', 'vms': 2.078125}
+{'pid': 13148, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'UnrealCEFSubProcess.exe', 'vms': 97.54296875}
+{'pid': 13252, 'username': None, 'name': 'GoogleCrashHandler.exe', 'vms': 1.8125}
+{'pid': 13276, 'username': None, 'name': 'GoogleCrashHandler64.exe', 'vms': 1.79296875}
+{'pid': 13304, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'svchost.exe', 'vms': 11.07421875}
+{'pid': 13440, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'DolbyDAX2TrayIcon.exe', 'vms': 4.01171875}
+{'pid': 13460, 'username': None, 'name': 'SearchFilterHost.exe', 'vms': 1.53515625}
+{'pid': 13520, 'username': None, 'name': 'svchost.exe', 'vms': 3.24609375}
+{'pid': 13576, 'username': None, 'name': 'SgrmBroker.exe', 'vms': 4.7109375}
+{'pid': 13652, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'Microsoft.Photos.exe', 'vms': 50.4375}
+{'pid': 13668, 'username': None, 'name': 'svchost.exe', 'vms': 6.76953125}
+{'pid': 13752, 'username': None, 'name': 'NVDisplay.Container.exe', 'vms': 30.7109375}
+{'pid': 14056, 'username': None, 'name': 'svchost.exe', 'vms': 5.421875}
+{'pid': 14072, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'chrome.exe', 'vms': 44.97265625}
+{'pid': 14136, 'username': None, 'name': 'svchost.exe', 'vms': 3.17578125}
+{'pid': 14272, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'RuntimeBroker.exe', 'vms': 12.80859375}
+{'pid': 14932, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'svchost.exe', 'vms': 8.3828125}
+{'pid': 15176, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'SettingSyncHost.exe', 'vms': 5.99609375}
+{'pid': 15456, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'CompPkgSrv.exe', 'vms': 2.046875}
+{'pid': 15636, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'nvcontainer.exe', 'vms': 31.90625}
+{'pid': 15800, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'WinStore.App.exe', 'vms': 49.98046875}
+{'pid': 16020, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'Skype.exe', 'vms': 120.23828125}
+{'pid': 16096, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'python.exe', 'vms': 16.421875}
+{'pid': 16208, 'username': None, 'name': 'PSAdminAgent.exe', 'vms': 2.28515625}
+{'pid': 16296, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'ApplicationFrameHost.exe', 'vms': 20.0}
+{'pid': 16540, 'username': None, 'name': 'OfficeClickToRun.exe', 'vms': 42.5625}
+{'pid': 17012, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'chrome.exe', 'vms': 17.20703125}
+{'pid': 17104, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'chrome.exe', 'vms': 11.80859375}
+{'pid': 17164, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'Skype.exe', 'vms': 10.74609375}
+{'pid': 17180, 'username': None, 'name': 'svchost.exe', 'vms': 1.93359375}
+{'pid': 17320, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'svchost.exe', 'vms': 13.33203125}
+{'pid': 17508, 'username': None, 'name': 'SearchProtocolHost.exe', 'vms': 2.51171875}
+{'pid': 17524, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'RuntimeBroker.exe', 'vms': 6.55859375}
+{'pid': 17528, 'username': None, 'name': 'fontdrvhost.exe', 'vms': 3.53515625}
+{'pid': 17636, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'chrome.exe', 'vms': 21.87890625}
+{'pid': 17640, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'conhost.exe', 'vms': 6.51171875}
+{'pid': 17724, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'RuntimeBroker.exe', 'vms': 3.6875}
+{'pid': 17932, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'Skype.exe', 'vms': 40.22265625}
+{'pid': 18068, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'Skype.exe', 'vms': 31.93359375}
+{'pid': 18312, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'igfxEM.exe', 'vms': 4.08984375}
+{'pid': 18736, 'username': None, 'name': 'WmiPrvSE.exe', 'vms': 3.77734375}
+{'pid': 18900, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'CodeHelper.exe', 'vms': 11.63671875}
+{'pid': 18964, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'YourPhoneServer.exe', 'vms': 7.83984375}
+{'pid': 19092, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'chrome.exe', 'vms': 183.984375}
+{'pid': 19284, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'chrome.exe', 'vms': 284.12109375}
+{'pid': 19680, 'username': None, 'name': 'svchost.exe', 'vms': 3.421875}
+{'pid': 19692, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'Code.exe', 'vms': 86.63671875}
+{'pid': 19832, 'username': None, 'name': 'svchost.exe', 'vms': 4.27734375}
+{'pid': 19928, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'nvsphelper64.exe', 'vms': 3.19921875}
+{'pid': 19980, 'username': None, 'name': 'unsecapp.exe', 'vms': 2.1328125}
+{'pid': 20216, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'conhost.exe', 'vms': 6.5078125}
+{'pid': 20296, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'NVIDIA Web Helper.exe', 'vms': 30.87890625}
+{'pid': 20304, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'svchost.exe', 'vms': 1.84375}
+{'pid': 20380, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'chrome.exe', 'vms': 70.90625}
+{'pid': 20476, 'username': 'LAPTOP-RSTFGJU4\\Vedant Wartikar', 'name': 'RAVBg64.exe', 'vms': 6.25}

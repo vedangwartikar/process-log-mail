@@ -38,18 +38,22 @@ def process():
 	pid = []
 	vms = []
 	name = []
+	create_time = []
 
 	#df = pd.read_csv('LogData.csv')
 
 
-	for proc in psutil.process_iter():
+	for proc in psutil.process_iter(['pid','name','username','create_time']):
 		try:
-			pinfo = proc.as_dict(attrs = ['pid','name','username'])
+			pinfo = proc.as_dict(['pid','name','username','create_time'])
+			""" for pin in pinfo:
+				print(pin, pinfo[pin]) """
 			pinfo['vms'] = proc.memory_info().vms / (1024*1024)
 			processlist.append(pinfo)
 			pid.append(pinfo['pid'])
 			vms.append(pinfo['vms'])
 			name.append(pinfo['name'])
+			create_time.append(pinfo['create_time'])
 
 		except(psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
 			pass
@@ -153,3 +157,33 @@ def main():
 
 if __name__ == '__main__':
 	main()	
+
+
+"""
+nice None
+memory_full_info None
+cpu_percent 0.0
+username NT AUTHORITY\SYSTEM
+num_handles 0
+cpu_affinity None
+memory_maps None
+ppid 0
+num_ctx_switches pctxsw(voluntary=79186790, involuntary=0)
+cmdline []
+num_threads 8
+cpu_times pcputimes(user=0.0, system=168771.703125, children_user=0.0, children_system=0.0)
+environ {}
+memory_info pmem(rss=8192, vms=61440, num_page_faults=9, peak_wset=12288, wset=8192, peak_paged_pool=0, paged_pool=0, peak_nonpaged_pool=272, nonpaged_pool=272, pagefile=61440, peak_pagefile=61440, private=61440)
+memory_percent 4.802491532607116e-05
+status running
+create_time 1597001987.0
+exe None
+pid 0
+ionice None
+name System Idle Process
+threads None
+cwd None
+io_counters pio(read_count=0, write_count=0, read_bytes=0, write_bytes=0, other_count=0, other_bytes=0)
+open_files []
+connections [pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=1, laddr=addr(ip='192.168.0.104', port=53762), raddr=addr(ip='13.74.179.117', port=443), status='TIME_WAIT'), pconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=1, laddr=addr(ip='192.168.0.104', port=53763), raddr=addr(ip='52.114.77.33', port=443), status='TIME_WAIT')]
+"""

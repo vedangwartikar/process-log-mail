@@ -1,0 +1,230 @@
+,username,pid,name,vms
+0,NT AUTHORITY\SYSTEM,0,System Idle Process,0.05859375
+1,NT AUTHORITY\SYSTEM,4,System,0.19921875
+2,LAPTOP-RSTFGJU4\Vedant Wartikar,88,WindowsInternal.ComposableShell.Experiences.TextInput.InputApp.exe,12.30859375
+3,,120,Registry,10.49609375
+4,,148,svchost.exe,10.8515625
+5,,388,svchost.exe,0.93359375
+6,,468,smss.exe,1.1640625
+7,LAPTOP-RSTFGJU4\Vedant Wartikar,512,python.exe,307.78515625
+8,LAPTOP-RSTFGJU4\Vedant Wartikar,532,conhost.exe,6.51953125
+9,,560,svchost.exe,14.6015625
+10,LAPTOP-RSTFGJU4\Vedant Wartikar,684,chrome.exe,19.8828125
+11,,692,csrss.exe,2.37109375
+12,LAPTOP-RSTFGJU4\Vedant Wartikar,700,nvsphelper64.exe,3.21484375
+13,,716,csrss.exe,2.4921875
+14,,792,wininit.exe,1.59375
+15,,864,services.exe,5.51171875
+16,,880,lsass.exe,7.69140625
+17,,952,fontdrvhost.exe,1.57421875
+18,LAPTOP-RSTFGJU4\Vedant Wartikar,1012,YourPhone.exe,25.69140625
+19,,1080,svchost.exe,9.125
+20,,1128,svchost.exe,2.87890625
+21,LAPTOP-RSTFGJU4\Vedant Wartikar,1144,Code.exe,49.5625
+22,,1220,PresentationFontCache.exe,24.71484375
+23,,1344,svchost.exe,2.64453125
+24,LAPTOP-RSTFGJU4\Vedant Wartikar,1384,chrome.exe,42.1875
+25,,1400,svchost.exe,2.15625
+26,,1440,svchost.exe,1.5390625
+27,,1508,svchost.exe,2.5078125
+28,LAPTOP-RSTFGJU4\Vedant Wartikar,1544,RuntimeBroker.exe,5.46484375
+29,,1576,svchost.exe,6.46875
+30,,1612,svchost.exe,3.15234375
+31,,1636,svchost.exe,2.2734375
+32,,1640,svchost.exe,1.55078125
+33,LAPTOP-RSTFGJU4\Vedant Wartikar,1656,Skype.exe,9.5078125
+34,,1756,svchost.exe,16.51171875
+35,,1796,svchost.exe,1.359375
+36,,1800,svchost.exe,7.44140625
+37,LAPTOP-RSTFGJU4\Vedant Wartikar,1864,Skype.exe,39.0390625
+38,,1896,svchost.exe,2.8671875
+39,LAPTOP-RSTFGJU4\Vedant Wartikar,1912,RuntimeBroker.exe,2.71484375
+40,,1976,NVDisplay.Container.exe,6.6953125
+41,,2024,svchost.exe,5.5078125
+42,,2040,svchost.exe,1.75390625
+43,,2052,svchost.exe,1.97265625
+44,,2060,wsc_proxy.exe,4.12890625
+45,,2084,svchost.exe,2.26171875
+46,LAPTOP-RSTFGJU4\Vedant Wartikar,2120,DolbyDAX2TrayIcon.exe,3.9765625
+47,LAPTOP-RSTFGJU4\Vedant Wartikar,2224,chrome.exe,116.046875
+48,,2288,Memory Compression,0.1015625
+49,,2336,svchost.exe,2.01171875
+50,,2344,svchost.exe,2.546875
+51,LAPTOP-RSTFGJU4\Vedant Wartikar,2356,conhost.exe,6.4765625
+52,,2380,svchost.exe,4.421875
+53,,2424,igfxCUIService.exe,1.96875
+54,,2456,svchost.exe,1.51953125
+55,,2524,svchost.exe,2.734375
+56,,2552,svchost.exe,3.11328125
+57,LAPTOP-RSTFGJU4\Vedant Wartikar,2560,Code.exe,10.43359375
+58,,2596,svchost.exe,1.953125
+59,,2604,svchost.exe,1.97265625
+60,,2628,svchost.exe,2.9140625
+61,LAPTOP-RSTFGJU4\Vedant Wartikar,2648,Skype.exe,119.92578125
+62,LAPTOP-RSTFGJU4\Vedant Wartikar,2668,SearchUI.exe,92.87109375
+63,LAPTOP-RSTFGJU4\Vedant Wartikar,2692,chrome.exe,233.48828125
+64,,2728,svchost.exe,2.75
+65,,2856,svchost.exe,2.4140625
+66,,2924,svchost.exe,3.3671875
+67,,3028,svchost.exe,1.80078125
+68,,3036,svchost.exe,2.9140625
+69,,3164,svchost.exe,2.0859375
+70,,3252,svchost.exe,5.046875
+71,,3256,svchost.exe,6.30078125
+72,,3276,svchost.exe,2.26171875
+73,,3348,svchost.exe,2.9609375
+74,,3368,AvastSvc.exe,171.65625
+75,,3432,svchost.exe,9.203125
+76,,3744,svchost.exe,6.03515625
+77,,3764,spoolsv.exe,5.17578125
+78,LAPTOP-RSTFGJU4\Vedant Wartikar,3788,chrome.exe,34.90625
+79,,3796,svchost.exe,11.6796875
+80,,3844,dwm.exe,80.19921875
+81,,3912,svchost.exe,2.015625
+82,LAPTOP-RSTFGJU4\Vedant Wartikar,4076,NVIDIA Share.exe,20.46484375
+83,,4128,mDNSResponder.exe,1.9375
+84,,4136,AdminService.exe,3.9921875
+85,,4144,AiSquared.Magnification.Service.exe,2.8359375
+86,,4152,Crypserv.exe,3.2265625
+87,,4160,svchost.exe,18.62890625
+88,,4176,svchost.exe,33.17578125
+89,,4184,svchost.exe,5.89453125
+90,,4208,svchost.exe,1.5859375
+91,,4216,svchost.exe,5.046875
+92,,4228,svchost.exe,1.5078125
+93,LAPTOP-RSTFGJU4\Vedant Wartikar,4240,svchost.exe,1.84375
+94,,4244,ZoomTextHelperService.exe,0.859375
+95,,4252,armsvc.exe,1.82421875
+96,,4260,svchost.exe,1.953125
+97,,4268,svchost.exe,1.25390625
+98,,4276,svchost.exe,5.04296875
+99,,4284,Lavasoft.WCAssistant.WinService.exe,36.875
+100,,4292,Updater.exe,4.77734375
+101,,4300,AppleMobileDeviceService.exe,3.40625
+102,,4312,nvcontainer.exe,13.95703125
+103,,4364,OfficeClickToRun.exe,34.5546875
+104,,4416,svchost.exe,5.66015625
+105,,4436,svchost.exe,2.3359375
+106,,4576,svchost.exe,2.40625
+107,,4816,svchost.exe,1.30078125
+108,LAPTOP-RSTFGJU4\Vedant Wartikar,4840,CompPkgSrv.exe,1.74609375
+109,,4872,svchost.exe,3.5703125
+110,,4972,dasHost.exe,1.25
+111,LAPTOP-RSTFGJU4\Vedant Wartikar,5032,chrome.exe,2.29296875
+112,,5324,svchost.exe,1.7734375
+113,LAPTOP-RSTFGJU4\Vedant Wartikar,5344,RAVBg64.exe,6.1953125
+114,,5568,svchost.exe,2.23828125
+115,LAPTOP-RSTFGJU4\Vedant Wartikar,5576,NVIDIA Share.exe,45.26171875
+116,LAPTOP-RSTFGJU4\Vedant Wartikar,5772,Skype.exe,10.76953125
+117,LAPTOP-RSTFGJU4\Vedant Wartikar,5800,jusched.exe,1.79296875
+118,LAPTOP-RSTFGJU4\Vedant Wartikar,5820,ctfmon.exe,3.9921875
+119,,5888,svchost.exe,2.34765625
+120,LAPTOP-RSTFGJU4\Vedant Wartikar,5924,chrome.exe,63.8515625
+121,LAPTOP-RSTFGJU4\Vedant Wartikar,5988,chrome.exe,399.80078125
+122,LAPTOP-RSTFGJU4\Vedant Wartikar,6140,RuntimeBroker.exe,6.671875
+123,,6248,aswEngSrv.exe,73.50390625
+124,LAPTOP-RSTFGJU4\Vedant Wartikar,6424,YourPhoneServer.exe,7.80859375
+125,LAPTOP-RSTFGJU4\Vedant Wartikar,6444,Microsoft.Photos.exe,49.42578125
+126,,6700,SearchIndexer.exe,46.66796875
+127,LAPTOP-RSTFGJU4\Vedant Wartikar,7060,Code.exe,44.96484375
+128,,7072,svchost.exe,2.83984375
+129,LAPTOP-RSTFGJU4\Vedant Wartikar,7132,AvastUI.exe,15.77734375
+130,LAPTOP-RSTFGJU4\Vedant Wartikar,7240,CodeHelper.exe,11.51953125
+131,,7256,svchost.exe,3.93359375
+132,,7360,svchost.exe,1.7890625
+133,LAPTOP-RSTFGJU4\Vedant Wartikar,7476,AvastUI.exe,43.25
+134,,7648,aswidsagent.exe,36.55078125
+135,LAPTOP-RSTFGJU4\Vedant Wartikar,7872,conhost.exe,6.52734375
+136,LAPTOP-RSTFGJU4\Vedant Wartikar,7920,AiSquared.Loader.Elevated.exe,31.96875
+137,LAPTOP-RSTFGJU4\Vedant Wartikar,7996,Code.exe,215.7734375
+138,LAPTOP-RSTFGJU4\Vedant Wartikar,8044,chrome.exe,21.515625
+139,LAPTOP-RSTFGJU4\Vedant Wartikar,8140,chrome.exe,200.359375
+140,,8168,svchost.exe,4.23828125
+141,LAPTOP-RSTFGJU4\Vedant Wartikar,8284,WinStore.App.exe,46.37109375
+142,LAPTOP-RSTFGJU4\Vedant Wartikar,8296,RuntimeBroker.exe,4.6640625
+143,,8324,svchost.exe,3.203125
+144,,8496,winlogon.exe,2.89453125
+145,LAPTOP-RSTFGJU4\Vedant Wartikar,8624,ZtUac64.exe,1.515625
+146,,8668,SearchProtocolHost.exe,2.8828125
+147,LAPTOP-RSTFGJU4\Vedant Wartikar,8760,conhost.exe,6.4765625
+148,,8836,fontdrvhost.exe,4.47265625
+149,LAPTOP-RSTFGJU4\Vedant Wartikar,8840,OneDrive.exe,14.74609375
+150,LAPTOP-RSTFGJU4\Vedant Wartikar,8928,AiSquared.Loader.Elevated.exe,14.5625
+151,,9096,WmiPrvSE.exe,3.80859375
+152,LAPTOP-RSTFGJU4\Vedant Wartikar,9104,python.exe,17.72265625
+153,,9260,svchost.exe,2.04296875
+154,,9320,dllhost.exe,3.09765625
+155,LAPTOP-RSTFGJU4\Vedant Wartikar,9452,svchost.exe,11.22265625
+156,LAPTOP-RSTFGJU4\Vedant Wartikar,9576,chrome.exe,34.45703125
+157,LAPTOP-RSTFGJU4\Vedant Wartikar,9872,chrome.exe,52.12890625
+158,LAPTOP-RSTFGJU4\Vedant Wartikar,9928,Skype.exe,32.25
+159,LAPTOP-RSTFGJU4\Vedant Wartikar,9984,RuntimeBroker.exe,3.421875
+160,LAPTOP-RSTFGJU4\Vedant Wartikar,9988,RAVCpl64.exe,4.93359375
+161,LAPTOP-RSTFGJU4\Vedant Wartikar,10128,chrome.exe,12.32421875
+162,LAPTOP-RSTFGJU4\Vedant Wartikar,10308,LockApp.exe,14.3671875
+163,LAPTOP-RSTFGJU4\Vedant Wartikar,10396,Code.exe,85.08203125
+164,LAPTOP-RSTFGJU4\Vedant Wartikar,10672,chrome.exe,122.89453125
+165,LAPTOP-RSTFGJU4\Vedant Wartikar,10704,chrome.exe,24.38671875
+166,LAPTOP-RSTFGJU4\Vedant Wartikar,10728,chrome.exe,18.8359375
+167,,10736,svchost.exe,4.18359375
+168,LAPTOP-RSTFGJU4\Vedant Wartikar,10836,conhost.exe,1.7421875
+169,LAPTOP-RSTFGJU4\Vedant Wartikar,10924,python.exe,275.4609375
+170,LAPTOP-RSTFGJU4\Vedant Wartikar,11044,python.exe,271.61328125
+171,LAPTOP-RSTFGJU4\Vedant Wartikar,11064,chrome.exe,69.4765625
+172,LAPTOP-RSTFGJU4\Vedant Wartikar,11164,AcerRegistrationBackGroundTask.exe,38.484375
+173,,11176,SgrmBroker.exe,3.16015625
+174,LAPTOP-RSTFGJU4\Vedant Wartikar,11180,python.exe,103.375
+175,LAPTOP-RSTFGJU4\Vedant Wartikar,11328,SystemSettings.exe,23.1015625
+176,LAPTOP-RSTFGJU4\Vedant Wartikar,11420,dllhost.exe,2.34375
+177,,11468,unsecapp.exe,1.55859375
+178,LAPTOP-RSTFGJU4\Vedant Wartikar,11476,svchost.exe,4.21875
+179,LAPTOP-RSTFGJU4\Vedant Wartikar,11500,Code.exe,7.08203125
+180,LAPTOP-RSTFGJU4\Vedant Wartikar,11560,Code.exe,40.8984375
+181,LAPTOP-RSTFGJU4\Vedant Wartikar,11652,AiSquared.Loader.Generic.exe,39.78125
+182,LAPTOP-RSTFGJU4\Vedant Wartikar,11736,RuntimeBroker.exe,11.6640625
+183,LAPTOP-RSTFGJU4\Vedant Wartikar,11800,nvcontainer.exe,28.93359375
+184,LAPTOP-RSTFGJU4\Vedant Wartikar,11808,powershell.exe,66.70703125
+185,,11904,GoogleCrashHandler.exe,1.81640625
+186,LAPTOP-RSTFGJU4\Vedant Wartikar,12056,Code.exe,185.6796875
+187,LAPTOP-RSTFGJU4\Vedant Wartikar,12076,chrome.exe,41.234375
+188,,12096,svchost.exe,4.76953125
+189,LAPTOP-RSTFGJU4\Vedant Wartikar,12224,conhost.exe,6.51171875
+190,LAPTOP-RSTFGJU4\Vedant Wartikar,12324,RAVBg64.exe,6.63671875
+191,LAPTOP-RSTFGJU4\Vedant Wartikar,12340,powershell.exe,63.53515625
+192,,12392,NVDisplay.Container.exe,29.3125
+193,LAPTOP-RSTFGJU4\Vedant Wartikar,12640,chrome.exe,7.69921875
+194,LAPTOP-RSTFGJU4\Vedant Wartikar,12644,ShellExperienceHost.exe,14.3359375
+195,LAPTOP-RSTFGJU4\Vedant Wartikar,12652,taskhostw.exe,8.73828125
+196,,12732,jhi_service.exe,1.453125
+197,LAPTOP-RSTFGJU4\Vedant Wartikar,12740,conhost.exe,6.515625
+198,,12844,SecurityHealthService.exe,4.1484375
+199,LAPTOP-RSTFGJU4\Vedant Wartikar,12880,conhost.exe,1.6875
+200,LAPTOP-RSTFGJU4\Vedant Wartikar,12972,explorer.exe,77.16015625
+201,LAPTOP-RSTFGJU4\Vedant Wartikar,13080,RuntimeBroker.exe,6.4921875
+202,,13216,svchost.exe,3.46484375
+203,LAPTOP-RSTFGJU4\Vedant Wartikar,13220,SecurityHealthSystray.exe,2.078125
+204,LAPTOP-RSTFGJU4\Vedant Wartikar,13340,chrome.exe,65.9765625
+205,,13388,svchost.exe,2.22265625
+206,LAPTOP-RSTFGJU4\Vedant Wartikar,13496,RuntimeBroker.exe,5.77734375
+207,LAPTOP-RSTFGJU4\Vedant Wartikar,13536,nvcontainer.exe,7.2578125
+208,LAPTOP-RSTFGJU4\Vedant Wartikar,13572,sihost.exe,10.76171875
+209,LAPTOP-RSTFGJU4\Vedant Wartikar,13608,svchost.exe,13.51953125
+210,,13636,svchost.exe,1.8984375
+211,LAPTOP-RSTFGJU4\Vedant Wartikar,13660,NVIDIA Web Helper.exe,30.75
+212,LAPTOP-RSTFGJU4\Vedant Wartikar,13664,svchost.exe,12.84765625
+213,,13688,svchost.exe,3.0625
+214,LAPTOP-RSTFGJU4\Vedant Wartikar,13692,chrome.exe,22.36328125
+215,,13700,GoogleCrashHandler64.exe,1.796875
+216,LAPTOP-RSTFGJU4\Vedant Wartikar,13960,RuntimeBroker.exe,9.13671875
+217,LAPTOP-RSTFGJU4\Vedant Wartikar,13968,StartMenuExperienceHost.exe,29.09375
+218,,14024,svchost.exe,1.5546875
+219,LAPTOP-RSTFGJU4\Vedant Wartikar,14232,NVIDIA Share.exe,33.97265625
+220,LAPTOP-RSTFGJU4\Vedant Wartikar,14496,ApplicationFrameHost.exe,20.44921875
+221,,14832,svchost.exe,1.484375
+222,LAPTOP-RSTFGJU4\Vedant Wartikar,14884,chrome.exe,52.99609375
+223,LAPTOP-RSTFGJU4\Vedant Wartikar,14932,SettingSyncHost.exe,6.91796875
+224,,14936,svchost.exe,2.05859375
+225,LAPTOP-RSTFGJU4\Vedant Wartikar,14964,igfxEM.exe,3.7265625
+226,,15012,DolbyDAX2API.exe,29.8984375
+227,,15092,SearchFilterHost.exe,1.53515625
+228,,15096,LMS.exe,3.6953125

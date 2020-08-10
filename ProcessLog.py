@@ -8,6 +8,8 @@ from email.mime.base import MIMEBase
 from email.mime.text import MIMEText
 #from email.MIMEImage import MIMEImage
 from email import encoders
+import pandas as pd
+from collections import defaultdict
 
 #Server-Client email details
 from details import *
@@ -36,6 +38,9 @@ def process():
 	pid = []
 	vms = []
 	name = []
+
+	#df = pd.read_csv('LogData.csv')
+
 
 	for proc in psutil.process_iter():
 		try:
@@ -69,6 +74,14 @@ def process():
 	for element in processlist:
 		fd.write("%s\n"%element)
 
+	dfDict = defaultdict(list)
+	for element in processlist:
+		for each in element:
+			dfDict[each].append(element[each])
+	
+	df = pd.DataFrame(dfDict)
+	df.to_csv('LogData.csv')
+	
 	print("Process log succesfully created at ", ct)
 	return log_path, img_path
 
@@ -86,18 +99,40 @@ def maillog(emailid, attachpath, img_path):
 		body = "Process Log details for Acer Predator G3-571"
 		msg.attach(MIMEText(body, 'plain'))
 
-		filename = "ProcessLog.log"
-		attachment = open(attachpath, "rb")
+# ======================== Attaching Log File ========================
 
-		p = MIMEBase('application', 'octet-stream')
+		logFileName = "ProcessLog.log"
+	
+		logAttachment = open(attachpath, "rb")
 
-		p.set_payload((attachment).read())
+		log = MIMEBase('application', 'octet-stream')
 
-		encoders.encode_base64(p)
+		log.set_payload((logAttachment).read())
 
-		p.add_header('Content-Disposition', "attachement; filename = %s" %filename)
+		encoders.encode_base64(log)
 
-		msg.attach(p)
+		log.add_header('Content-Disposition', "attachement; filename = %s" %logFileName)
+
+		msg.attach(log)
+
+# ======================== Attaching CSV File ========================
+
+		csvFileName = "LogData.csv"
+	
+		csvAttachment = open('LogData.csv', "rb")
+
+		csv = MIMEBase('application', 'octet-stream')
+
+		csv.set_payload((csvAttachment).read())
+
+		encoders.encode_base64(csv)
+
+		csv.add_header('Content-Disposition', "attachement; filename = %s" %csvFileName)
+
+		msg.attach(csv)
+
+
+# ======================== Sending Mail content over SMTP ========================
 
 		s = smtplib.SMTP('smtp.gmail.com', 587)
 		s.starttls()

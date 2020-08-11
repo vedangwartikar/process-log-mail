@@ -1,0 +1,4 @@
+psutil
+smtplib
+matplotlib
+json

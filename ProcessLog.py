@@ -12,7 +12,10 @@ import pandas as pd
 from collections import defaultdict
 
 #Server-Client email details
-from details import *
+import json
+
+with open('details.json') as f:
+  data = json.load(f)
 
 def process():
 	log_dir = "Log"
@@ -90,7 +93,7 @@ def process():
 	return log_path, img_path
 
 def maillog(emailid, attachpath, img_path):
-	fromaddr = fromEmailId
+	fromaddr = data['fromEmailId']
 	toaddr = emailid
 
 	msg = MIMEMultipart()
@@ -140,7 +143,7 @@ def maillog(emailid, attachpath, img_path):
 
 		s = smtplib.SMTP('smtp.gmail.com', 587)
 		s.starttls()
-		s.login(fromaddr, fromPassword)
+		s.login(fromaddr, data['fromPassword'])
 		text = msg.as_string()
 		start = time.time()
 		s.sendmail(fromaddr, toaddr, text)
@@ -153,7 +156,7 @@ def maillog(emailid, attachpath, img_path):
 def main():
 	print("Process Log mail sender: ")
 	attachpath, img_path = process()
-	maillog(toEmailId, attachpath, img_path)
+	maillog(data['toEmailId'], attachpath, img_path)
 
 if __name__ == '__main__':
 	main()	

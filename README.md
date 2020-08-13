@@ -26,5 +26,6 @@ $ pip install -r requirements.txt
     - fromEmailId - Enter the email-id you want to send the Process Log from
     - fromPassword - Enter the password of email-id you want to send the Process Log from
     - toEmailId - Enter the email-id you want to send the Process Log to
-<br>
-- Incase you're getting stuck due to access issues while sending the emails, all you need to do is enable less secure apps for the email you are trying to send the email from. Toggle the ON button [here](https://www.google.com/settings/security/lesssecureapps)
+
+- Incase you're getting stuck due to access issues while sending the emails, all you need to do is enable less secure apps for the email you are trying to send the email from 
+    - Toggle the ON button [here](https://www.google.com/settings/security/lesssecureapps) 

@@ -41,14 +41,13 @@ def process():
 	pid = []
 	vms = []
 	name = []
-	create_time = []
 
 	#df = pd.read_csv('LogData.csv')
 
 
-	for proc in psutil.process_iter(['pid','name','username','create_time']):
+	for proc in psutil.process_iter(['pid','ppid','name','username','create_time','memory_percent','num_handles','num_threads']):
 		try:
-			pinfo = proc.as_dict(['pid','name','username','create_time'])
+			pinfo = proc.as_dict(['pid','ppid','name','username','create_time','memory_percent','num_handles','num_threads'])
 			""" for pin in pinfo:
 				print(pin, pinfo[pin]) """
 			pinfo['vms'] = proc.memory_info().vms / (1024*1024)
@@ -56,7 +55,6 @@ def process():
 			pid.append(pinfo['pid'])
 			vms.append(pinfo['vms'])
 			name.append(pinfo['name'])
-			create_time.append(pinfo['create_time'])
 
 		except(psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
 			pass
